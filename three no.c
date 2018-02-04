@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<conio.h> 
-void main()
+int main()
 {
     int num4, num5, num6;
     clrscr();
@@ -22,5 +22,5 @@ void main()
         printf("%d is the greatest among three \n",num5);
     else
         printf("%d is the greatest among three \n",num6);
-        getch();
+       return0;
 }
