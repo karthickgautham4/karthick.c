@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int count=0;
 long a;
@@ -12,5 +12,5 @@ a=a/10;
 count++;
 }
 printf("count the no of integers %ld",count);
-getch();
+return0;
 }
