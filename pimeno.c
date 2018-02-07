@@ -1,7 +1,9 @@
 #include<stdio.h>
- int main()
+#include<conio.h>
+ void main()
  {
    int i, prime,upper,lower, n;
+  clrscr();
    printf(" ENTER THE LOWER LIMIT : ");
    scanf("%d", &lower);
    printf("\n ENTER THE UPPER LIMIT : ");
