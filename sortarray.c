@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include<coni.h>
 int main() 
 {
     int n,a[10],temp=0,j,i;
+	clrscr();
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
