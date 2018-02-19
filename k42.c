@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include<string.h>
-int main(void) 
+int main() 
 {
 	char str1[50],str2[50];
-  clrscr();
+        clrscr();
 	int n1,n2;
 	printf("enter the string1:");
 	scanf("%s",str1);
