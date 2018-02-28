@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main(void) 
+void main(void) 
 {
 	char str[50];
 	int i;
@@ -10,5 +10,5 @@ int main(void)
 	{
 		
 	}
-	return 0;
+	grtch();
 }
