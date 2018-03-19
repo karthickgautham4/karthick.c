@@ -1,18 +1,15 @@
 #include <stdio.h>
 #include<conio.h>
-void main() 
+
+int main(void) 
 {
-
-int L,B,H,totalsurfacearea=0,volume=0;
-clrscr();
-scanf("%d %d %d",&L,&B,&H);
-totalsurfacearea=2*((L*B)+(B*H)+(L*H));
-volume=L*B*H;
-
-printf("%d",totalsurfacearea);
-
-printf("\n%d",volume);
-
-getch();
-
+	int l,b,h;
+	scanf("%d %d %d",&l,&b,&h);
+	int volume,tsa;
+	volume=l*b*h;
+	tsa=2*((l*b)+(b*h)+(h*l));
+	printf("\nVOLUME=%d",volume);
+	printf("\nTSA=%d",tsa);
+  return 0;
+  getch();  
 }
