@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include<conio.h>
 
-void main()
+int main()
 {
     int l,b,h,v;
     clrscr();
@@ -8,6 +9,7 @@ void main()
     v=l*b*h;
    
    printf("%d",v);
+    return 0;
 
     getch();
 }
