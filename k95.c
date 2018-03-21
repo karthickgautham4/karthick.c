@@ -1,14 +1,12 @@
 #include <stdio.h>
-#include<math.h>
-int main()
+#include<conio.h>
+int main() 
 {
-	float p,r,si;
 	
-  int n,result;
-	scanf("%f %d %f",&p,&n,&r);
-	si=((p*n*r)/100);
-	result=floor(si);
-	printf("%d",result);
-
-return 0;
+	int n,p,r,si;
+	clrscr();
+	scanf("%d %d %d",&p,&n,&r);
+	si=(p*n*r)/100;
+	printf("%d",si);
+	return 0;
 }
