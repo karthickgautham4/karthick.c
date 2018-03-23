@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
-    int a,si,p,q;
-    clrscr();
-    scanf("%d %d %d",&a,&p,&q);
-    si=(p*a*q)/100;
-    
-    printf("%d",si);
-    
-    getch();
-    
+    float principle, time, rate, SI;
+    printf("Enter principle (amount): ");
+    scanf("%f", &principle);
+
+    printf("Enter time: ");
+    scanf("%f", &time);
+
+    printf("Enter rate: ");
+    scanf("%f", &rate);
+    SI = (principle * time * rate) / 100;
+    printf("Simple Interest = %f", SI);
+
+    return 0;
 }
