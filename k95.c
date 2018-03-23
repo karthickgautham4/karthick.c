@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-    int n,si,p,r;
+    int a,si,p,q;
     clrscr();
-    scanf("%d %d %d",&n,&p,&r);
-    si=(p*n*r)/100;
+    scanf("%d %d %d",&a,&p,&q);
+    si=(p*a*q)/100;
     
     printf("%d",si);
     
